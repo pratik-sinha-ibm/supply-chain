@@ -62,9 +62,6 @@ Clone the GitHub repository to your colab notebook.
 !orchestrate env activate bootcamp --apikey <YOUR_API_KEY>
 ```
 
-> **Warning:** Before proceeding to step 5, fill in all code snippets provided for the agents and tools as outlined in the lab guide.
-
-
 > <span style="color:red">⚠️</span> **Warning:** Before proceeding to step 5, ensure all code snippets for the agents and tools are filled in as outlined in the lab guide.
 
 
