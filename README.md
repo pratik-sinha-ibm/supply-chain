@@ -29,13 +29,6 @@ It combines real-time telematics data, diagnostic trouble codes (DTCs), and vehi
 - **Data Utilization:** Leverages telematics data and DTC documentation to deliver accurate, data-driven support.
 - **Scalability:** Easily extendable across vehicle models, regions, and support channels (mobile app, web, IVR).
 
-## Steps to run the notebook-
-1. Clone the github repo- !git clone https://github.com/sumanp2710/AgenticAI-Folder
-2. Check the file contents for this lab- !ls AgenticAI-Folder/Labs/Lab1/vehicle_maintenance_agent
-3. change to this directory- import sys
-sys.path.append('/content/AgenticAI-Folder/Labs/Lab1/vehicle_maintenance_agent/tools')
-4. Install watsonx orchestrate using pip- pip install ibm_watsonx_orchestrate
-5. Setup your wxo environment-  !orchestrate env add --name bootcamp --url <YOUR - URL> -t ibm_iam
 
 ## Running the Notebook Instructions
 
