@@ -12,10 +12,10 @@ The Controller Agent serves as the central decision-maker, dynamically delegatin
 ## The Problem
 
 Traditional supply chain workflows are highly siloed, manual, and sequential. This leads to:
-⏱️ Slow response times when demand changes
-⚠️ Missed cost-saving opportunities due to poor procurement coordination
-🚚 Inefficient routing and logistics delays
-📉 High overhead in compliance reporting
+- ⏱️ Slow response times when demand changes
+- ⚠️ Missed cost-saving opportunities due to poor procurement coordination
+- 🚚 Inefficient routing and logistics delays
+- 📉 High overhead in compliance reporting
 
 As a result, enterprises face:
 🔄 Disconnected planning across departments
@@ -25,19 +25,19 @@ As a result, enterprises face:
 
 ## Key Components
 
-🤖 1. Forecast Agent
+- 🤖 1. Forecast Agent
 Predicts future demand trends using historical data
 Drives smarter procurement and production
-📦 2. Inventory Agent
+- 📦 2. Inventory Agent
 Continuously monitors stock levels
 Raises restock alerts or triggers orders automatically
-📥 3. Procurement Agent
+- 📥 3. Procurement Agent
 Finds optimal vendors and initiates purchase orders
 Supports dynamic price and volume negotiation logic
-🚛 4. Logistics Agent
+- 🚛 4. Logistics Agent
 Plans distribution schedules and delivery routes
 Simulates estimated arrival times
-✅ 5. Compliance Agent
+- ✅ 5. Compliance Agent
 Checks if each action complies with internal/external policy
 Prevents policy violations proactively
 
@@ -63,6 +63,10 @@ Clone the GitHub repository to your colab notebook.
 ```
 
 > **Warning:** Before proceeding to step 5, fill in all code snippets provided for the agents and tools as outlined in the lab guide.
+
+
+> <span style="color:red">⚠️</span> **Warning:** Before proceeding to step 5, ensure all code snippets for the agents and tools are filled in as outlined in the lab guide.
+
 
 ### 5. Import all the tools and agents using this shell script
 ```bash 
