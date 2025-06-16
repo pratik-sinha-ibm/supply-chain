@@ -30,7 +30,7 @@ It combines real-time telematics data, diagnostic trouble codes (DTCs), and vehi
 - **Scalability:** Easily extendable across vehicle models, regions, and support channels (mobile app, web, IVR).
 
 
-## Running the Notebook Instructions
+## Instructions for running the Notebook 
 
 ### 1. Clone the Repository
 Clone the GitHub repository to your colab notebook.
