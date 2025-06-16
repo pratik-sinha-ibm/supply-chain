@@ -41,30 +41,26 @@ Clone the GitHub repository to your colab notebook.
 ```bash 
 !ls AgenticAI-Folder/Labs/Lab1/vehicle_maintenance_agent
 ```
-### 3. Ensure Python can find the necessary tools by appending the path.
-```bash 
-import sys
-sys.path.append('/content/AgenticAI-Folder/Labs/Lab1/vehicle_maintenance_agent/tools')
-```
-### 4. Install the required Python package (ibm_watsonx_orchestrate).
+
+### 3. Install the required Python package (ibm_watsonx_orchestrate).
 ```bash 
 !pip install ibm_watsonx_orchestrate
 ```
-### 5. Add your environment to Orchestrate using your specific URL and API key.
+### 4. Add your environment to Orchestrate using your specific URL and API key.
 ```bash 
 !orchestrate env add --name bootcamp --url <YOUR_URL> -t ibm_iam
 !orchestrate env activate bootcamp --apikey <YOUR_API_KEY>
 ```
-### 6. Import Python scripts and their dependencies into the environment.
+### 5. Import Python scripts and their dependencies into the environment.
 ```bash 
 !orchestrate tools import -k python -f "/content/AgenticAI-Folder/Labs/Lab1/vehicle_maintenance_agent/tools/get_nearest_service_center.py" -r "/content/AgenticAI-Folder/Labs/Lab1/vehicle_maintenance_agent/tools/requirements.txt"
 !orchestrate tools import -k python -f "/content/AgenticAI-Folder/Labs/Lab1/vehicle_maintenance_agent/tools/get_vehicle_telematics.py" -r "/content/AgenticAI-Folder/Labs/Lab1/vehicle_maintenance_agent/tools/requirements.txt"
 ```
-### 7. Import the knowledge base YAML file into the environment.
+### 6. Import the knowledge base YAML file into the environment.
 ```bash 
 !orchestrate knowledge-bases import -f /content/AgenticAI-Folder/Labs/Lab1/vehicle_maintenance_agent/knowledge_bases/knowledge.yaml
 ```
-### 8. Import the agent YAML file into the environment.
+### 7. Import the agent YAML file into the environment.
 ```bash 
 !orchestrate agents import -f /content/AgenticAI-Folder/Labs/Lab1/vehicle_maintenance_agent/agents/vehicle_telematics.yaml
 ```
